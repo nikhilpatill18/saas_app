@@ -42,7 +42,7 @@ const Header = () => {
                                 <li className='nav-logo'>
                                     <Ls
                                         to="hero"
-                                        offset={-100} spy="true" smooth="true" className={clsx("max-lg:hidden transition-transform duration-200 cursor-pointer")}
+                                        offset={-100} spy smooth className={clsx("max-lg:hidden transition-transform duration-200 cursor-pointer")}
                                     >
                                         <img src="/images/xora.svg" alt="" />
                                     </Ls>
